@@ -1,0 +1,19 @@
+version: '3.9'
+services:
+  docker-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - '4200:4200'
+    volumes:
+      - ./src:/frontend/src
+
+  docker-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile-backend
+    ports:
+      - '5000:5000'
+    volumes:
+      - ./db.json:/backend/db.json

@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Architecture Logicielle",
+      "day": "Samedi 9h:00 - 12h:00",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Devops",
+      "day": "Samedi 12h:00 - 15h:00",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Business Intelligence",
+      "day": "Samedi 15h:00 - 18h:00",
+      "reminder": false
+    }
+  ]
+}
